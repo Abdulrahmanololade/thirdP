@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    /* #btn{
+        font-size: 20px;
+        background-color: darkcyan;
+        color: #ffffff;
+        padding: 7px;
+        border-radius: 15px;
+        
+    }
+
+    form{
+        margin: 20px;
+    }
+
+    form input{
+        width: 350px;
+        height: 40px;
+        border-radius: 15px;
+        border: 1px solid darkcyan;
+        font-size: 20px;
+    }  */
+    img{
+        height: 200px;
+        width: 250px;
+    }
+
+    .container{
+        display: flex;
+        font-size: medium;
+        justify-content: space-around;       
+    }
+
+    .container .box{
+        max-width: 500px;
+    }
+    </style>
+</head>
+<body>
+
+<!-- splides js -->
+<!-- jquary -->
+
+<!-- <h4 id="success"></h4>
+<form action="">
+    <label for="">Fullname</label><br>
+    <input type="text" name="" id="fname" value=""><br>
+    <p id="fnameerror"></p>
+    <label for="">Email</label><br>
+    <input type="email" name="" id="email" value=""><br>
+    <p id="emailerror"></p>
+    <a id="btn" type="button" onclick="submit()">submit</a>
+</form> -->
+
+
+<!-- <p>This is a <span style="color: blue;">blue</span> text</p> -->
+
+
+<span id="demo">Tayo</span><br>
+<button onclick="changeTextBtn()">changeTextBtn</button><br><br>
+
+
+<div id="colorDiv">Tayo</div>
+<button onclick="changeColorBtn()">changeColorBtn</button><br><br>
+
+<h4 id="success"></h4>
+<form action="">
+    <input type="tel" name="" id="phone"><br>
+    <span id="errorSpan"></span>
+
+    <button type="button" onclick="validatePhone()">validate</button>
+</form><br><br>
+
+
+
+ <div>   
+    <img src="" alt="" id="mainImage" height="450px;" width="500px;"><br>
+
+    <img src="image/img1.jpg" alt="Image 1" onclick="changeImage(this.src)">
+    <img src="image/img2.jpg" alt="Image 2" onclick="changeImage(this.src)">
+    <img src="image/img3.jpg" alt="Image 3" onclick="changeImage(this.src)">
+</div>
+
+
+
+<div id="toggleDiv" style="margin-top: 40px; font-size: medium;" >Hello, welcome to my page!</div>
+<button id="togglebtn" onclick="toggleDiv( )">toggleDiv</button>
+<button onclick="showDiv()">ShowDiv</button>
+
+
+<section class="container">
+    <div class="box">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+            <a href="#" type="button" id="showMore" onclick="show()">...show more</a> <span id="less">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very 
+            popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span></p>
+    </div>
+    <div class="box">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. .</p>
+    </div>
+    <div class="box">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+    </div>
+</section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
